@@ -1,0 +1,1044 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: Marckscript;
+  src: url(tektur-variablefont_wdthwght-webfont.woff) format("woff"), url(tektur-variablefont_wdthwght-webfont.woff2) format("woff2");
+}
+h1,
+h3,
+h4,
+p,
+a,
+span,
+select {
+  font-family: Marckscript;
+}
+/* __________header_________________ */
+header {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 1%;
+  border-bottom: 1px solid #01b7ff;
+}
+.head_two img {
+  width: 20px;
+}
+.head_two {
+  display: flex;
+  gap: 30px;
+  justify-self: end;
+}
+.head_one, .head_one .links {
+  display: flex;
+  gap: 30px;
+}
+.logo {
+  font-size: 18pt;
+  font-weight: bolder;
+  font-family: Marckscript;
+}
+.head_one a {
+  text-decoration: none;
+  color: #010a50;
+  font-size: 14pt;
+}
+.head_one a:hover {
+  color: #01b7ff;
+}
+.menu {
+  display: none;
+}
+/* _____________________main__________________ */
+.box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: minmax(500px, auto);
+  border-bottom: 1px solid #01b7ff;
+}
+/* ------------настройка внутри банера */
+.gal_big{
+  width: 100%;
+  height: auto;
+}
+.box .gal_big img{
+  width: 100%;
+  height: 100%;
+}
+.box>div:nth-child(1) {
+  justify-self: center;
+  align-self: center;
+  padding: 50px;
+}
+
+h1 {
+  margin-bottom: 8%;
+  font-size: 35pt;
+}
+.p1 {
+  text-align: justify;
+  /*по ширине*/
+  font-size: 17pt;
+  margin-bottom: 20px;
+}
+.p2 {
+  text-align: justify;
+  font-size: 14pt;
+  margin-bottom: 20px;
+}
+.start {
+  background-color: #ffffff;
+  border: 1px solid #01b7ff;
+  border-radius: 5px;
+  text-align: center;
+  padding: 15px 25px 15px 25px;
+  color: #01b7ff;
+  font-size: 16pt;
+  font-family: Marckscript;
+}
+
+/*-------------------- настройка точек*/
+
+.box .point{
+  display: flex;
+  gap: 1%;
+  justify-content: center;
+  z-index: 1;
+}
+.box .point a{
+text-decoration: none;
+color: none;
+}
+.box .point img{
+width: 30px;
+height: 30px;
+background-color: rgba(210, 210, 210, 0.501);
+margin-bottom: 30px;
+border-radius: 50%;
+}
+.box .gal_gal{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.box .gal_gal>div:nth-child(1){
+  grid-row: 1;
+  grid-column: 1;
+}
+.box .gal_gal>div:nth-child(2){
+  grid-row: 1;
+  grid-column: 1;
+  align-self: end;
+}
+
+/*-------------------- настройка точек 2*/
+
+.box1 .point_1{
+  display: flex;
+  gap: 1%;
+  justify-content: center;
+  z-index: 1;
+}
+.box1 .point_1 a{
+text-decoration: none;
+color: none;
+}
+.box1 .point_1 img{
+width: 25px;
+height: 25px;
+background-color: rgba(210, 210, 210, 0.501);
+margin-bottom: 20px;
+border-radius: 50%;
+}
+.box1 .gal_gal_1{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.box1 .gal_gal_1>div:nth-child(1){
+  grid-row: 1;
+  grid-column: 1;
+}
+.box1 .gal_gal_1>div:nth-child(2){
+  grid-row: 1;
+  grid-column: 1;
+  align-self: end;
+}
+
+/*-------------------- настройка точек 3*/
+.box2 .point_2{
+  display: flex;
+  gap: 1%;
+  justify-content: center;
+  z-index: 1;
+}
+.box2 .point_2 a{
+text-decoration: none;
+color: none;
+}
+.box2 .point_2 img{
+width: 25px;
+height: 25px;
+background-color: rgba(210, 210, 210, 0.501);
+margin-bottom: 50px;
+border-radius: 50%;
+}
+.box2 .gal_gal_2{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.box2 .gal_gal_2>div:nth-child(1){
+  grid-row: 1;
+  grid-column: 1;
+}
+.box2 .gal_gal_2>div:nth-child(2){
+  grid-row: 1;
+  grid-column: 1;
+  align-self: end;
+}
+/* -------------------------- */
+.box1 {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  border-bottom: 1px solid #01b7ff;
+  grid-template-rows: minmax(500px, auto);
+}
+.box1 img {
+  width: 100%;
+  height: 100%;
+}
+.box1>div:nth-child(2) {
+  justify-self: center;
+  align-self: center;
+  width: 80%;
+}
+/* настройка внутри банера */
+.gal_big_1{
+  width: 400px;
+  height: 100%;
+}
+.box1 .gal_big_1 img{
+  width: 100%;
+  height: auto;
+}
+.box1>div:nth-child(1){
+  justify-self: center;
+  align-self: center;
+  padding: 50px;
+}
+
+.box2 {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  border-bottom: 1px solid #01b7ff;
+  grid-template-rows: minmax(350px, auto);
+}
+.box2 img {
+  width: 100%;
+  height: 100%;
+}
+.box2 div:nth-child(2) {
+  justify-self: center;
+  /*по ширине */
+  align-self: center;
+  /*по высоте */
+}
+/* настройка внутри банера */
+.gal_big_2{
+  width: 400px;
+  height: 100%;
+}
+.box2 .gal_big_2 img{
+  width: 100%;
+  height: auto;
+}
+.box2>div:nth-child(1){
+  justify-self: center;
+  align-self: center;
+  padding: 50px;
+   width: 80%;
+}
+
+.box1 h3,
+.box2 h3 {
+  margin-bottom: 3%;
+  font-size: 25pt;
+  font-weight: normal;
+}
+.box1 p,
+.box2 p {
+  text-align: justify;
+  font-size: 14pt;
+  margin-bottom: 20px;
+}
+.More {
+  background-color: #ffffff;
+  border: 1px solid #01b7ff;
+  border-radius: 5px;
+  text-align: center;
+  padding: 15px 25px;
+  color: #01b7ff;
+  font-size: 16pt;
+  font-family: Marckscript;
+}
+/* ____________________________________ */
+.gal {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.gal h3 {
+  margin-bottom: 3%;
+  font-size: 25pt;
+  font-weight: normal;
+  text-align: center;
+}
+.galImg {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: minmax(300px, auto);
+  overflow: hidden;
+  position: relative;
+}
+
+.galImg img {
+  width: 100%;
+  height: 100%;
+}
+
+.st1,
+.st2 {
+  font-size: 55pt;
+  color: #010a50;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.st1 {
+  left: 0;
+}
+
+.st2 {
+  right: 0;
+}
+
+/* ____________________________________ */
+.tab {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0 3% 5% 3%;
+}
+.icon-airplayvideo,
+.icon-airplayaudio,
+.icon-applepodcasts,
+.icon-azurepipelines,
+.icon-breaker,
+.icon-f-droid {
+  font-size: 50pt;
+  color: #010a50;
+  /* font-weight: bold; */
+}
+.tab h3 {
+  grid-column: 1 / span 3;
+  grid-row: 1;
+  margin-bottom: 5%;
+  font-size: 25pt;
+  font-weight: normal;
+  text-align: center;
+}
+.tab div {
+  padding: 15%;
+  justify-self: center;
+  align-self: center;
+  text-align: center;
+}
+.tab h4 {
+  padding-top: 4%;
+  padding-bottom: 8%;
+  font-size: 16pt;
+}
+.boxBorder1,
+.boxBorder2,
+.boxBorder4,
+.boxBorder5 {
+  border-right: 1px solid #01b7ff;
+}
+.boxBorder1,
+.boxBorder2,
+.boxBorder3 {
+  border-bottom: 1px solid #01b7ff;
+}
+/* ------------------форма--------------------- */
+.form h3 {
+  margin-bottom: 5%;
+  font-size: 25pt;
+  font-weight: normal;
+  text-align: center;
+}
+.FormsTwo {
+  width: 60%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 1%;
+  /*расстояние между строками */
+  margin: auto;
+}
+.FormsTwo .block1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 7%;
+  /*расстояние между колонками и строками */
+  width: 100%;
+  padding: 1% 3%;
+  box-sizing: border-box;
+  /*все рамки станут внутри блока */
+}
+.block1 input {
+  padding: 3%;
+  width: 90%;
+}
+.block1 input::placeholder {
+  color: #01b7ff;
+  font-size: 14pt;
+  font-style: italic;
+}
+.block1 div {
+  font-weight: bold;
+  font-family: Marckscript;
+  font-size: 14pt;
+}
+/* ------------------------- 2 блок */
+.FormsTwo .block2 {
+  display: flex;
+  gap: 2%;
+  width: 100%;
+  padding: 1% 3%;
+  box-sizing: border-box;
+}
+.FormsTwo .block2 div {
+  font-weight: bold;
+  font-family: Marckscript;
+  font-size: 14pt;
+}
+
+/* -------3-й блок----------- */
+
+.FormsTwo>div:nth-child(3){
+  padding: 1% 3%;
+  box-sizing: border-box;
+  font-family: Marckscript;
+}
+.FormsTwo select{
+  margin-top: 1%;
+  padding: 1%;
+  width: 100%;
+}
+.FormsTwo>div:nth-child(3) div{
+  font-weight: bold;
+}
+
+/* -------4-й блок----------- */
+.FormsTwo>div:nth-child(4){
+  padding: 1% 3%;
+  box-sizing: border-box;
+  font-family: Marckscript;
+} 
+
+.FormsTwo textarea {
+  margin-top: 1%;
+  width: 100%;
+}
+.FormsTwo>div:nth-child(4) div{
+  font-weight: bold;
+}
+
+/* -------5-й блок----------- */
+.FormsTwo>div:nth-child(5){
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 1% 3%;
+  box-sizing: border-box;
+}
+
+.FormsTwo>div:nth-child(5) .send {
+  justify-self: end;
+  /*прижимаем в право */
+  background-color: #ffffff;
+  border: 1px solid #01b7ff;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px 20px;
+  color: #01b7ff;
+  font-size: 12pt;
+  font-family: Marckscript;
+}
+.FormsTwo>div:nth-child(5) label {
+  font-weight: bold;
+}
+
+.form {
+  padding-bottom: 5%;
+  border-bottom: 1px solid slategray;
+}
+
+/* --------------подвал__________ */
+footer {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 50%;
+  padding: 5% 3%;
+}
+footer .box_img {
+  display: flex;
+  gap: 3%;
+  justify-self: center;
+}
+footer .box_img div {
+  width: 50px;
+  height: 30px;
+  border-radius: 50%;
+  padding: 3%;
+  border: 2px solid #01b7ff;
+}
+footer .box_img img {
+  width: 100%;
+  height: 100%;
+}
+footer .copy {
+  justify-self: center;
+  font-size: 15pt;
+  font-family: Marckscript;
+}
+
+/* ------------модальные окна */
+
+/* покупка тура */
+ .overlay{
+  width: 100%;
+  height: 100%;
+  position: fixed;   /* фон под МО двигается */
+  top: 0;
+  left: 0;
+  background-color: rgba(240, 248, 255, 0.464);
+  display: none; 
+}
+
+.overlay .close-popup img{
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+ 
+}
+
+.overlay .popup{
+  background-color: rgb(138, 185, 233);
+  padding: 50px;
+  width: 70%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+  font-size: 14pt;
+  font-family: Marckscript;
+}
+
+.overlay .popup button{
+  font-size: 14pt;
+  padding: 14px 28px;
+  border: none;
+  margin-top: 20px;
+  border-radius: 10px;
+ background-color: rgb(255, 255, 255);
+ font-family: Marckscript;
+}
+.overlay .popup button:hover{
+background-color: rgb(75, 71, 126);
+color: white;
+cursor: pointer;
+}  
+
+/* 2 модальное покупка тура */
+.error {
+  border: 2px solid red;
+}
+
+  .shop{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(240, 248, 255, 0.464);
+  display: none;
+}
+
+.name_6{
+  text-decoration: none;
+  font-family: Marckscript;
+}
+.shop .close-popup_shop img{
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+.im{
+  display: flex;
+ margin: 10px;
+}
+.shop .popup_shop{
+  background-color: rgb(138, 185, 233);
+  padding: 50px;
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+  font-size: 14pt;
+  font-family: Marckscript;
+}
+
+.shop .popup_shop button{
+  font-size: 14pt;
+  padding: 14px 28px;
+  border: none;
+  margin-top: 20px;
+  border-radius: 10px;
+ background-color: rgb(255, 255, 255);
+ font-family: Marckscript;
+}
+.shop .popup_shop button:hover{
+background-color: rgb(75, 71, 126);
+color: white;
+cursor: pointer;
+} 
+
+/* ----------------------модальное окно1 от ссылки */
+/* .fhoto .close-gallery img{
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+ 
+}
+.fhoto {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+}
+
+.gallery_5 {
+  padding: 20px;
+  border: 2px solid red;
+  width: 800px;
+  height: 400px;
+  z-index: 1;
+  position: relative;
+}
+
+.big {
+  width: 500px;
+  height: 282px;
+  border: 3px dotted royalblue;
+  position: absolute;
+  margin-top: 10px;
+  left: 50%;
+  transform: translate(-50%);
+}
+.big img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  transform: translate( -50%);
+}
+.small {
+  margin-top: 20px;
+  display: flex;
+  justify-content:center;
+  gap: 5px;
+  position: absolute;
+  top: 73%;
+  left: 23%;
+  transform: translate(-50% -50%);
+}
+
+.small a img {
+  border: none;
+  width: 110px;
+  height: 80px;
+}
+
+.small_2 {
+  margin-top: 20px;
+  gap: 5px;
+  display: flex;
+  flex-direction: column;  
+}
+.small_2 a img {
+  border: none;
+  width: 110px;
+  height: 80px;
+}
+.small_3 {
+  margin-top: 20px;
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: absolute;
+  top: 5%;
+  left: 85%;
+  transform: translate(-50% -50%); 
+}
+.small_3 a img {
+  border: none;
+  width: 110px;
+  height: 80px;
+}
+
+.button_5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  font-size: 30px;
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+.button_5:hover {
+  cursor: pointer;
+}
+.gallery_5{
+  display: none;
+} */
+/* ========================модальное 2 от ссылки */
+/* .modal_2 .close-fon_8 img {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+.fon_8 {
+  width: 80%;
+  height: 80%;
+  background-image: url("10.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+}
+.cosmos_2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 10px;
+  left: 0;
+  background: none;
+}
+.cosmos_1 {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  top: 25%;
+  left: 25%;
+  display: block;
+  transform: translate(-50%, -50%);
+  border-radius: 30px;
+  opacity: 1;
+}
+.sd_2 {
+  background: rgba(255, 0, 68, 0.282);
+  width: 10%;
+  height: 30%;
+  display: block;
+  margin: 0 auto;
+  transform: translate(-50%, -50%);
+}
+.cosmos_2 img {
+  width: 50%;
+  height: 50%;
+  display: block;
+  margin: 0 auto;
+  transform: translate(50%, -50%);
+  border-radius: 30px;
+  opacity: 2;
+} 
+ .cosmos_1 img{
+  width: 50%;
+  height: 50%;
+  opacity: 1;
+}
+  .fon_8{
+    display: none;
+  } */
+/* -------------------медиазапрос------------------ */
+@media screen and (min-width: 600px) and (max-width: 850px) {
+  header {
+    grid-template-columns: 1fr;
+    padding: 3%;
+  }
+  .head_two {
+    display: none;
+  }
+  .box {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  h1 {
+    font-size: 25pt;
+  }
+  .p1 {
+    font-size: 14pt;
+  }
+  .p2 {
+    font-size: 10pt;
+  }
+  .start {
+    padding: 15px 20px 15px 20px;
+    /*по часовой стрелке, если одинаковые можно указать 2 значения из 4*/
+    font-size: 12pt;
+  }
+  /* ----------------- */
+  .box1 {
+    grid-template-columns: 1fr 1fr;
+  }
+  .box1 div:nth-child(2) {
+    padding: 7%, 3%;
+  }
+  .box2 {
+    grid-template-columns: 1fr 1fr;
+  }
+  .box2 div:nth-child(1) {
+    padding: 7%, 3%;
+  }
+  .box1 h3,
+  .box2 h3 {
+    font-size: 22pt;
+    margin-bottom: 10%;
+    margin-top: 10%;
+  }
+  .box1 p,
+  .box2 p {
+    font-size: 10pt;
+  }
+  .More {
+    padding: 15px 20px;
+    font-size: 12pt;
+    margin-bottom: 10%;
+  }
+  /* ________________________ */
+  .galImg {
+    grid-template-columns: 2fr 2fr;
+  }
+  .galImg .galim3 {
+    display: none;
+  }
+  .galImg .galim4 {
+    display: none;
+  }
+  .galImg:hover .st1 {
+    /* не работает при наведении мыши на объект */
+    display: none;
+  }
+  .galImg:hover .st2 {
+    display: none;
+  }
+  .galImg:hover .galText {
+    display: none;
+  }
+  /* ___________________________ */
+  .tab {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .tab h3 {
+    grid-column: 1 / span 2;
+  }
+  .boxBorder1,
+  .boxBorder3,
+  .boxBorder5 {
+    border-right: 1px solid #01b7ff;
+  }
+  .boxBorder1,
+  .boxBorder3,
+  .boxBorder4 {
+    border-bottom: 1px solid #01b7ff;
+  }
+  .boxBorder2,
+  .boxBorder4 {
+    border-right: none;
+  }
+  /* ------------------------------------ */
+  footer {
+    padding-bottom: 10%;
+  }
+  footer .box_img div {
+    width: 40px;
+    height: 20px;
+    border-radius: 50%;
+    padding: 3%;
+    border: 2px solid #01b7ff;
+  }
+  .block1 input::placeholder {
+    font-size: 10pt;
+  }
+  .FormsTwo>div:nth-child(5) label {
+    align-self: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    border-bottom: none;
+  }
+  .head_two { /* Картинки */
+    display: none;
+}
+.head_one{
+    display: inline-block;
+}
+.head_one .links{
+    display: none;
+    background-color: rgba(95, 158, 160, 0.678);
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 50px 25px;
+    height: 100%;
+    font-size: 14pt;
+}
+.head_one .links div{
+    margin-bottom: 20px;
+}
+.head_one .links div a:hover{
+    color: rgb(13, 77, 151);
+}
+
+  .logo {
+    font-size: 12pt;
+    padding: 10%;
+  }
+  .box,
+  .box1 {
+    grid-template-columns: 1fr;
+    border-bottom: none;
+  }
+  .box div:nth-child(1) {
+    grid-row: 2;
+    /*номерация строки */
+  }
+
+  .start,
+  .More {
+    padding: 15px 20px;
+    font-size: 12pt;
+    margin-bottom: 10%;
+  }
+  .box1 div:nth-child(2) {
+    padding: 10% 0;
+  }
+  .box2 {
+    grid-template-columns: 1fr;
+  }
+  .box2 div:nth-child(1) {
+    grid-row: 2;
+    padding: 10% 0;
+  }
+  .box1 h3,
+  .box2 h3,
+  .box1 p,
+  .box2 p {
+    margin-bottom: 10%;
+  }
+  .box h1 {
+    font-weight: normal;
+  }
+  /* галерея */
+  .galImg .galim2,
+  .galImg .galim3,
+  .galImg .galim4 {
+    display: none;
+  }
+  .gal {
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+  .galImg {
+    grid-template-columns: 1fr;
+  }
+  /* таблица */
+  .tab {
+    grid-template-columns: 1fr;
+    margin: 0 10%;
+  }
+  .tab h3 {
+    grid-column: 1;
+  }
+  .boxBorder1,
+  .boxBorder2,
+  .boxBorder4,
+  .boxBorder3,
+  .boxBorder5,
+  .boxBorder6 {
+    border-bottom: 1px solid #01b7ff;
+    border-right: none;
+  }
+  /* ---------------------форма */
+  .FormsTwo {
+    width: 80%;
+    padding-bottom: 15%;
+  }
+  .FormsTwo .block1 {
+    grid-template-columns: 1fr;
+    margin-bottom: 15%;
+  }
+  .FormsTwo .block2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .FormsTwo .block2 div {
+    grid-column: 1 / span 3;
+    margin-bottom: 2%;
+  }
+  .FormsTwo>div:nth-child(5) label {
+    align-self: center;
+  }
+  .form h3 {
+    padding-top: 15%;
+  }
+  /* ------------------------подвал */
+  footer {
+    padding: 10% 3%;
+  }
+  footer .box_img div {
+    width: 33px;
+    height: 20px;
+  }
+  /* иконка меню */
+  .menu {
+    display: block;
+    justify-self: end;
+    align-self: center;
+    padding-right: 10%;
+  }
+  .menu img {
+    width: 30px;
+    height: 30px;
+  }
+}
